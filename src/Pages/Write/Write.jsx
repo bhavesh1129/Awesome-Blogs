@@ -5,7 +5,7 @@ export default function Write() {
     <div className="write">
       <img
         className="writeImg"
-        src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg"
         alt=""
       />
       <form className="writeForm">
@@ -30,7 +30,7 @@ export default function Write() {
           />
         </div>
         <button className="writeSubmit" type="submit">
-          Publish
+          Publish&nbsp;<i class="fa-solid fa-upload"></i>
         </button>
       </form>
     </div>
