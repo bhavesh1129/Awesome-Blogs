@@ -28,7 +28,7 @@ export default function Post({img}) {
           </Link>
         </span>
         <hr />
-        <span className="postDate">1 hour ago</span>
+        <span className="postDate"><i class="fa-regular fa-clock"></i> 1 hour ago</span>
       </div>
       <p className="postDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda

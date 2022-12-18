@@ -20,32 +20,32 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Life">
-              Life
+              Life <i class="fa-solid fa-heart-pulse"></i>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Music">
-              Music
+              Music <i class="fa-solid fa-music"></i>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Sport">
-              Sport
+              Sport <i class="fa-solid fa-basketball"></i>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Style">
-              Style
+              Style <i class="fa-solid fa-shirt"></i>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Tech">
-              Tech
+              Tech <i class="fa-solid fa-computer"></i>
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Cinema">
-              Cinema
+              Cinema <i class="fa-solid fa-film"></i>
             </Link>
           </li>
         </ul>
