@@ -27,7 +27,7 @@ export default function Settings() {
             />
           </div>
           <label>Username</label>
-          <input type="text" placeholder="Useranme" name="name" />
+          <input type="text" placeholder="Username" name="name" />
           <label>Email</label>
           <input type="email" placeholder="email@gmail.com" name="email" />
           <label>Password</label>
