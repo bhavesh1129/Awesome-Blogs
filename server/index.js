@@ -4,6 +4,7 @@ const multer = require('multer');
 const dotenv = require('dotenv');
 const path = require("path");
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser')
 const authRoute = require('./routes/auth');
 const userRoute = require('./routes/users');
 const postRoute = require('./routes/posts');
@@ -12,6 +13,8 @@ dotenv.config();
 
 //Middlewares
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 //MongoDB Connection
