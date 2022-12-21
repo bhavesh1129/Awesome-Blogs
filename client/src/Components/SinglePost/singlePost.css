@@ -22,6 +22,47 @@
     font-family: "Lora", sans-serif;
 }
 
+.singlePostTitleInput {
+    margin: 10px;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    width: 69vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+    outline: none;
+}
+
+.singlePostDescInput {
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    width: 70vw;
+    height: 50vh;
+    font-family: inherit;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+    outline: none;
+}
+
+.singlePostButton {
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
 .singlePostEdit {
     float: right;
     font-size: 16px;
