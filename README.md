@@ -11,8 +11,8 @@
 # Credentials🔐
 ```
 {
-  "username":"user",
-  "email":"user@gmail.com",
-  "password":"user"
+  "username" : "user",
+  "email" : "user@gmail.com",
+  "password" : "user"
 }
 ```
